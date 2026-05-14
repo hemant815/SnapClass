@@ -15,4 +15,3 @@ segno
 pillow
 
 streamlit
-grow
