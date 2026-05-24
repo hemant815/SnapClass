@@ -21,7 +21,7 @@ def background_dashboard():
     st.markdown("""
         <style>
                 .stApp {
-                    background: #4BB8FA !important;
+                    background: #C4E2F5 !important;
                 }
                 
                 
@@ -40,7 +40,15 @@ def base_layout():
             .block-container{
                 padding-top:1.5rem !important;
                 }
-            h1, h2{
+            h2{
+                font-family:"Climate crisis", sans-sarif !important;
+                font-size:2rem !important;
+                line-height:1 !important;
+                margin-bottom: 0 rem !important;
+                
+
+                }
+            h1{
                 font-family:"Climate crisis", sans-sarif !important;
                 font-size:2.5 rem !important;
                 line-height:1 !important;
@@ -82,3 +90,5 @@ def base_layout():
         </style>
             """,unsafe_allow_html=True
     )
+
+
