@@ -2,7 +2,7 @@ import streamlit as st
 from src.ui.base_layout  import background_dashboard , base_layout
 from src.components.header_home import header_dashboard
 from src.components.footer_home import footer_dashboard,footer_home
-from src.database.db import get_enrolled_subject, get_student_attendance #,check_teacher_exist, create_teacher, teacher_login ,
+from src.database.db import get_enrolled_subject, get_student_attendance 
 from PIL import Image
 import numpy as np
 from src.pipelines.face_pipeline import predict_attendance,get_face_embedding,trained_classifier
